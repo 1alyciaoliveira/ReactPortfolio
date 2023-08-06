@@ -1,16 +1,22 @@
 import React from 'react'
-import Navbar from './components/navbar/Navbar';
+import Header from './components/header/Header';
 import AboutMe from './components/about/AboutMe';
-import Contact from './components/contact/ContactMe';
-import Portfolio from './components/portfolio/Portfolio'
+import Footer from './components/footer/Footer';
+import Portfolio from './components/project/Portfolio';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <AboutMe />
-      <Contact />
-      <Portfolio />
+      <Router>
+        <Header />
+        <Routes>
+          <Route exact path='/' element={<AboutMe />} />
+          <Route exact path='/about-me' element={<AboutMe />} />
+          <Route exact path='/portfolio' element={<Portfolio />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
     
   );
