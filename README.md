@@ -18,7 +18,7 @@ A place to share my work with companies, clients and other developers.
 N/A
 
 ## Usage
-You can access the link here
+You can access the link here https://1alyciaoliveira.github.io/ReactPortfolio/
 
 ## Credits
 To develop this web page I checked a few youtube videos. With that, I want to thanks Garaje de ideas, Cryptical Coder and AfileDev for helping so many people with free content. 
