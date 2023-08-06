@@ -13,6 +13,10 @@ const portfolio = () => {
             <h3>{title}</h3>
             <p>{description}</p>
             <a href={link}>View Project</a>
+         {/* how can I add a link to github and another one to the deployed app? */
+         /*how can I centralize the images and the links?
+        why is the footer so high in the page? when in mobile view, the footer is in the middle of the page.*/} 
+
           </project>
       ))
       }
