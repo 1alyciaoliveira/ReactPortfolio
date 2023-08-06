@@ -54,11 +54,7 @@ a {
   text-decoration: none;
 }
 
-button {
-  cursor: pointer;
-  border: none;
-  outline: none;
-}
+
 
 .container {
   width: 95vw;
@@ -74,14 +70,6 @@ button {
   align-content: center;
 }
 
-.grid {
-  display: grid;
-}
-
-.section {
-  padding-top: 7rem;
-  padding-bottom: 2rem;
-}
 
 .section-title {
   font-size: var(--h1-font-size);
@@ -101,30 +89,7 @@ button {
   top: -0.875rem;
 }
 
-.btn {
-  padding: 0.75rem 2rem;
-  line-height: 1;
-  border-radius: 1.875rem;
-  box-shadow: 0 0 1px rgb(0 0 0 / 0%);
-  border: 1px solid transparent;
-  color: #fff;
-  display: inline-block;
-  background-color: var(--contrast-color);
-  font-weight: var(--font-bold);
-}
 
-@keyframes button-push {
-  50% {
-    transform: scale(0.8);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-.btn:hover {
-  animation: button-push 0.3s linear 1;
-}
 
 @media screen and (max-width: 1024px) {
   :root {
@@ -156,16 +121,75 @@ button {
   gap: 10px;
 }
 
+.portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 95vw;
+  height: 80vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 .projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  gap: 15px;
+  justify-content: space-evenly;
+}
+
+project img {
+  width: 200px;
 }
 
 project {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: var(--second-color);
+  width: 500px;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 20px auto;
+  height: 80vh;
+  justify-content: center;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.container-contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+}
+
+.container-contact form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-contact form button {
+  padding: 0.75rem 5rem;
+  line-height: 1;
+  border-radius: 1.875rem;
+  border: none;
+  color: var(--dominant-color);
+  background-color: var(--contrast-color);
+  font-weight: var(--font-bold);
+}
+
+.container-contact form button:hover {
+  background-color: var(--second-color);
+  color: var(--contrast-color);
+  border: 1px solid var(--contrast-color);
 }

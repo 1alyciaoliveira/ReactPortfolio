@@ -1,8 +1,9 @@
 import React from 'react'
 import Header from './components/header/Header';
 import AboutMe from './components/about/AboutMe';
-import Footer from './components/footer/Footer';
+import Footer from './components/contact/Footer';
 import Portfolio from './components/project/Portfolio';
+import ContactMe from './components/contact/ContactMe';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route exact path='/' element={<AboutMe />} />
           <Route exact path='/about-me' element={<AboutMe />} />
           <Route exact path='/portfolio' element={<Portfolio />} />
+          <Route exact path='/contact' element={<ContactMe />} />
         </Routes>
         <Footer />
       </Router>
