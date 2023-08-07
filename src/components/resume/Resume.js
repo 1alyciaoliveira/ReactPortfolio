@@ -1,4 +1,5 @@
 import React from 'react'
+import pdf from '../../assets/AlyciaOliveira.pdf'
 
 const Resume = () => {
   return (
@@ -6,7 +7,7 @@ const Resume = () => {
         <div className='title'>
             <h2>Here is my tech stack!</h2>
             <button>
-                <a href='../../assets/AlyciaOliveira.pdf' download="AlyciaOliveira.pdf">
+                <a href={pdf} download="AlyciaOliveira.pdf">
                     Download my CV
                 </a>
             </button>

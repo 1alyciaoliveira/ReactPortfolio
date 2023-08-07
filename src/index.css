@@ -187,3 +187,24 @@ project a {
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
 }
+
+.container-resume .title button {
+  padding: 0.75rem 5rem;
+  line-height: 1;
+  border-radius: 1.875rem;
+  border: none;
+  color: var(--dominant-color);
+  background-color: var(--contrast-color);
+  font-weight: var(--font-bold);
+}
+
+.container-resume .title button:hover {
+  background-color: var(--second-color);
+  color: var(--contrast-color);
+  border: 1px solid var(--contrast-color);
+}
+
+.container-resume .title button a {
+  text-decoration: none;
+  color: var(--second-color);
+}
