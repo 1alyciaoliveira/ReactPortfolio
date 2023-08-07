@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/1alyciaoliveira.github.io/ReactPortfolio/static/css/main.5e2f1ae9.css",
-    "main.js": "/1alyciaoliveira.github.io/ReactPortfolio/static/js/main.cb520359.js",
-    "static/media/food.svg": "/1alyciaoliveira.github.io/ReactPortfolio/static/media/food.6a01a7521d12d8ec7f786145836b6d55.svg",
-    "static/media/money.svg": "/1alyciaoliveira.github.io/ReactPortfolio/static/media/money.9c8b43445f5f7069e5912eae6f1400cb.svg",
-    "static/media/ecommerce.svg": "/1alyciaoliveira.github.io/ReactPortfolio/static/media/ecommerce.9d3d8286de3e56d2f658174b3f31632b.svg",
-    "static/media/notes.svg": "/1alyciaoliveira.github.io/ReactPortfolio/static/media/notes.e809f812cc6d4b7a34246f083de12aff.svg",
-    "static/media/network.svg": "/1alyciaoliveira.github.io/ReactPortfolio/static/media/network.dfa109ff61fcff48ba8f4e8b3e9873d5.svg",
-    "static/media/avatar.svg": "/1alyciaoliveira.github.io/ReactPortfolio/static/media/avatar.16cb7537a5c92ae92d825fa8e542646d.svg",
-    "static/media/readme.svg": "/1alyciaoliveira.github.io/ReactPortfolio/static/media/readme.be32f7cb267afa839057914ab6547c93.svg",
-    "index.html": "/1alyciaoliveira.github.io/ReactPortfolio/index.html",
-    "main.5e2f1ae9.css.map": "/1alyciaoliveira.github.io/ReactPortfolio/static/css/main.5e2f1ae9.css.map",
-    "main.cb520359.js.map": "/1alyciaoliveira.github.io/ReactPortfolio/static/js/main.cb520359.js.map"
+    "main.css": "/ReactPortfolio/static/css/main.5e2f1ae9.css",
+    "main.js": "/ReactPortfolio/static/js/main.a28a2577.js",
+    "static/media/food.svg": "/ReactPortfolio/static/media/food.6a01a7521d12d8ec7f786145836b6d55.svg",
+    "static/media/money.svg": "/ReactPortfolio/static/media/money.9c8b43445f5f7069e5912eae6f1400cb.svg",
+    "static/media/ecommerce.svg": "/ReactPortfolio/static/media/ecommerce.9d3d8286de3e56d2f658174b3f31632b.svg",
+    "static/media/notes.svg": "/ReactPortfolio/static/media/notes.e809f812cc6d4b7a34246f083de12aff.svg",
+    "static/media/network.svg": "/ReactPortfolio/static/media/network.dfa109ff61fcff48ba8f4e8b3e9873d5.svg",
+    "static/media/avatar.svg": "/ReactPortfolio/static/media/avatar.16cb7537a5c92ae92d825fa8e542646d.svg",
+    "static/media/readme.svg": "/ReactPortfolio/static/media/readme.be32f7cb267afa839057914ab6547c93.svg",
+    "index.html": "/ReactPortfolio/index.html",
+    "main.5e2f1ae9.css.map": "/ReactPortfolio/static/css/main.5e2f1ae9.css.map",
+    "main.a28a2577.js.map": "/ReactPortfolio/static/js/main.a28a2577.js.map"
   },
   "entrypoints": [
     "static/css/main.5e2f1ae9.css",
-    "static/js/main.cb520359.js"
+    "static/js/main.a28a2577.js"
   ]
 }
