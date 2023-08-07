@@ -4,7 +4,7 @@ import { BsLinkedin, BsStackOverflow } from 'react-icons/bs'
 
 const Footer = () => {
     return (
-        <div id="contact-me">
+        <div id="footer">
             <a href='https://github.com/1alyciaoliveira' className='icon'>
                 <FaGithub />
             </a>
