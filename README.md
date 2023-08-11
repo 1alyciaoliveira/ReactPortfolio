@@ -14,6 +14,14 @@
 ## Description
 A place to share my work with companies, clients and other developers.
 
+Here are some screenshots:
+
+![image](https://github.com/1alyciaoliveira/ReactPortfolio/assets/108914238/f0f10fed-cb8c-43ab-bf2a-358db50e5a9e)
+![image](https://github.com/1alyciaoliveira/ReactPortfolio/assets/108914238/d3e01177-d44d-45b3-ba70-e3b542690d43)
+![image](https://github.com/1alyciaoliveira/ReactPortfolio/assets/108914238/1701d134-0d4e-48a2-9a5b-afe8380eb60d)
+![image](https://github.com/1alyciaoliveira/ReactPortfolio/assets/108914238/62b6f4b9-ee47-4ea3-9fa6-b89c41534e67)
+
+
 ## Installation
 N/A
 
