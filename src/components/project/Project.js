@@ -2,7 +2,7 @@ import Money from '../../assets/money.svg'
 import Food from '../../assets/food.svg'
 import Ecommerce from '../../assets/ecommerce.svg'
 import Network from '../../assets/network.svg'
-import Notes from '../../assets/notes.svg'
+import JobJourney from '../../assets/jobjourney.svg'
 import Readme from '../../assets/readme.svg'
 
 export const projectData = [
@@ -24,11 +24,11 @@ export const projectData = [
     },
     {
         _id: 3,
-        title: "Note Taker",
-        description: "Write and save notes to organize your thoughts and keep track of the tasks you need to complete.",
-        image: Notes,
-        deploy: "https://still-woodland-82686.herokuapp.com/",
-        github: "https://github.com/1alyciaoliveira/NoteTaker",
+        title: "JobJourney",
+        description: "Welcome to a new era of efficient job hunting! Keep track of your job applications with this amazing app.",
+        image: JobJourney,
+        deploy: "https://ancient-everglades-97703-e6a603057067.herokuapp.com/",
+        github: "https://github.com/1alyciaoliveira/JobJourney",
     },
     {
         _id: 4,
